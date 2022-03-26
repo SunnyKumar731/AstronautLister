@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  AstronautLister
+
+  Created by Sunny Kumar on 26/3/22.
+  Copyright © 2022 Sunny Kumar. All rights reserved.
+*/
+"main_title" = "Astronauts";
+"generic_message_for_error" = "Failed to retreive details. Please try again later";
+"ok_button_title" = "ok";
+"not_available" = "Currently Not Available";
+"change_Order_Button_Title" = "Sort by Name";
+"name" = "Name";
+"nationality" = "Nationality";
+"date_of_birth" = "DATE OF BIRTH";
+"biography" = "BIOGRAPHY";
