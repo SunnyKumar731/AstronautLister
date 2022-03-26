@@ -11,7 +11,6 @@
 		3EF0B3403A6A6C088BA5B721 /* Pods_AstronautLister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C279D88A9EA90DA67193CB5 /* Pods_AstronautLister.framework */; };
 		F07C4DAB27ED34ED00800DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DAA27ED34ED00800DB6 /* AppDelegate.swift */; };
 		F07C4DAD27ED34ED00800DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DAC27ED34ED00800DB6 /* SceneDelegate.swift */; };
-		F07C4DAF27ED34ED00800DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DAE27ED34ED00800DB6 /* ViewController.swift */; };
 		F07C4DB227ED34ED00800DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07C4DB027ED34ED00800DB6 /* Main.storyboard */; };
 		F07C4DB427ED34EE00800DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07C4DB327ED34EE00800DB6 /* Assets.xcassets */; };
 		F07C4DB727ED34EE00800DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07C4DB527ED34EE00800DB6 /* LaunchScreen.storyboard */; };
@@ -52,7 +51,6 @@
 		F07C4DA727ED34ED00800DB6 /* AstronautLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronautLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07C4DAA27ED34ED00800DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F07C4DAC27ED34ED00800DB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F07C4DAE27ED34ED00800DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F07C4DB127ED34ED00800DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F07C4DB327ED34EE00800DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F07C4DB627ED34EE00800DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -146,7 +144,6 @@
 				F07C4DCD27ED352200800DB6 /* ViewModel */,
 				F07C4DAA27ED34ED00800DB6 /* AppDelegate.swift */,
 				F07C4DAC27ED34ED00800DB6 /* SceneDelegate.swift */,
-				F07C4DAE27ED34ED00800DB6 /* ViewController.swift */,
 				F07C4DB027ED34ED00800DB6 /* Main.storyboard */,
 				F07C4DB327ED34EE00800DB6 /* Assets.xcassets */,
 				F07C4DB527ED34EE00800DB6 /* LaunchScreen.storyboard */,
@@ -400,7 +397,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F07C4DD027ED358E00800DB6 /* AstronautListViewController.swift in Sources */,
-				F07C4DAF27ED34ED00800DB6 /* ViewController.swift in Sources */,
 				F07C4DD427ED35C600800DB6 /* AstronautListViewModel.swift in Sources */,
 				F07C4DE227ED39FC00800DB6 /* NetworkHandler.swift in Sources */,
 				F07C4DEA27ED403300800DB6 /* AstronautDetailsDataModel.swift in Sources */,
