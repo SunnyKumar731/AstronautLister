@@ -33,6 +33,7 @@ class AstronautListViewController: UIViewController {
            setUpTableView()
            setUpViewModel()
            configureBindings()
+           setUpRefreshAction()
            setUpReordOrderChangeAction()
        }
        
@@ -49,6 +50,19 @@ class AstronautListViewController: UIViewController {
            tableView.rowHeight = UITableView.automaticDimension
            tableView.estimatedRowHeight = UITableView.automaticDimension
            tableView.separatorStyle = .singleLine
+       }
+    
+       private func setUpRefreshAction() {
+            let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: self, action: #selector(refreshTapped))
+            navigationItem.leftBarButtonItem = refresh
+            navigationItem.leftBarButtonItem?.isEnabled = false
+       }
+        
+       @objc private func refreshTapped() {
+            loadingSpinner.isHidden = false
+            navigationItem.rightBarButtonItem?.isEnabled = false
+            navigationItem.leftBarButtonItem?.isEnabled = false
+            viewModel?.fetchDetails()
        }
        
        
@@ -82,6 +96,7 @@ class AstronautListViewController: UIViewController {
            
            switch displayDetails.details {
            case let .success(datamodel):
+               navigationItem.leftBarButtonItem?.isEnabled = false
                navigationItem.rightBarButtonItem?.isEnabled = true
                var snapshot = NSDiffableDataSourceSnapshot<Section, AstronautListDataModel>()
                snapshot.appendSections(Section.allCases)
