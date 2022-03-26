@@ -1,0 +1,693 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C6405AB5E90DE9E641D067 /* Pods_AstronautListerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1BBD70DFC3B9FEDCFEC8E07 /* Pods_AstronautListerTests.framework */; };
+		3EF0B3403A6A6C088BA5B721 /* Pods_AstronautLister.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C279D88A9EA90DA67193CB5 /* Pods_AstronautLister.framework */; };
+		F07C4DAB27ED34ED00800DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DAA27ED34ED00800DB6 /* AppDelegate.swift */; };
+		F07C4DAD27ED34ED00800DB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DAC27ED34ED00800DB6 /* SceneDelegate.swift */; };
+		F07C4DAF27ED34ED00800DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DAE27ED34ED00800DB6 /* ViewController.swift */; };
+		F07C4DB227ED34ED00800DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07C4DB027ED34ED00800DB6 /* Main.storyboard */; };
+		F07C4DB427ED34EE00800DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F07C4DB327ED34EE00800DB6 /* Assets.xcassets */; };
+		F07C4DB727ED34EE00800DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F07C4DB527ED34EE00800DB6 /* LaunchScreen.storyboard */; };
+		F07C4DC227ED34EE00800DB6 /* AstronautListerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DC127ED34EE00800DB6 /* AstronautListerTests.swift */; };
+		F07C4DD027ED358E00800DB6 /* AstronautListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DCF27ED358E00800DB6 /* AstronautListViewController.swift */; };
+		F07C4DD227ED35A800800DB6 /* AstronautDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DD127ED35A800800DB6 /* AstronautDetailsViewController.swift */; };
+		F07C4DD427ED35C600800DB6 /* AstronautListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DD327ED35C600800DB6 /* AstronautListViewModel.swift */; };
+		F07C4DD627ED35E200800DB6 /* AstronautDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DD527ED35E200800DB6 /* AstronautDetailsViewModel.swift */; };
+		F07C4DD827ED360B00800DB6 /* AstronautDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DD727ED360B00800DB6 /* AstronautDataModels.swift */; };
+		F07C4DDD27ED383800800DB6 /* AstronautListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DDB27ED383800800DB6 /* AstronautListTableViewCell.swift */; };
+		F07C4DDE27ED383800800DB6 /* AstronautListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F07C4DDC27ED383800800DB6 /* AstronautListTableViewCell.xib */; };
+		F07C4DE227ED39FC00800DB6 /* NetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DE127ED39FC00800DB6 /* NetworkHandler.swift */; };
+		F07C4DE827ED401B00800DB6 /* AstronautListDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DE727ED401B00800DB6 /* AstronautListDataModel.swift */; };
+		F07C4DEA27ED403300800DB6 /* AstronautDetailsDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DE927ED403300800DB6 /* AstronautDetailsDataModel.swift */; };
+		F07C4DEC27EDBDA100800DB6 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07C4DEB27EDBDA100800DB6 /* Utility.swift */; };
+		F0FB8A3527EE871900FDEDA6 /* StubNetworkHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB8A3427EE871900FDEDA6 /* StubNetworkHandler.swift */; };
+		F0FB8A3727EE873400FDEDA6 /* AstronautDetailsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0FB8A3627EE873400FDEDA6 /* AstronautDetailsTests.swift */; };
+		F0FB8A3A27EEA30A00FDEDA6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0FB8A3C27EEA30A00FDEDA6 /* Localizable.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F07C4DBE27ED34EE00800DB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F07C4D9F27ED34ED00800DB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F07C4DA627ED34ED00800DB6;
+			remoteInfo = AstronautLister;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F558810C7CE14B84BF5471 /* Pods-AstronautLister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronautLister.debug.xcconfig"; path = "Target Support Files/Pods-AstronautLister/Pods-AstronautLister.debug.xcconfig"; sourceTree = "<group>"; };
+		4C279D88A9EA90DA67193CB5 /* Pods_AstronautLister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstronautLister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		506C4E87EDDEBFBBDDF968E7 /* Pods-AstronautListerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronautListerTests.debug.xcconfig"; path = "Target Support Files/Pods-AstronautListerTests/Pods-AstronautListerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A1BBD70DFC3B9FEDCFEC8E07 /* Pods_AstronautListerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AstronautListerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C7BDBC911DE4053F15D19A /* Pods-AstronautLister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronautLister.release.xcconfig"; path = "Target Support Files/Pods-AstronautLister/Pods-AstronautLister.release.xcconfig"; sourceTree = "<group>"; };
+		E9070DD433BA29D66962A043 /* Pods-AstronautListerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AstronautListerTests.release.xcconfig"; path = "Target Support Files/Pods-AstronautListerTests/Pods-AstronautListerTests.release.xcconfig"; sourceTree = "<group>"; };
+		F07C4DA727ED34ED00800DB6 /* AstronautLister.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronautLister.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07C4DAA27ED34ED00800DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F07C4DAC27ED34ED00800DB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F07C4DAE27ED34ED00800DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F07C4DB127ED34ED00800DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F07C4DB327ED34EE00800DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F07C4DB627ED34EE00800DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F07C4DB827ED34EE00800DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07C4DBD27ED34EE00800DB6 /* AstronautListerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronautListerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07C4DC127ED34EE00800DB6 /* AstronautListerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListerTests.swift; sourceTree = "<group>"; };
+		F07C4DC327ED34EE00800DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F07C4DCF27ED358E00800DB6 /* AstronautListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListViewController.swift; sourceTree = "<group>"; };
+		F07C4DD127ED35A800800DB6 /* AstronautDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailsViewController.swift; sourceTree = "<group>"; };
+		F07C4DD327ED35C600800DB6 /* AstronautListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListViewModel.swift; sourceTree = "<group>"; };
+		F07C4DD527ED35E200800DB6 /* AstronautDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailsViewModel.swift; sourceTree = "<group>"; };
+		F07C4DD727ED360B00800DB6 /* AstronautDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDataModels.swift; sourceTree = "<group>"; };
+		F07C4DDB27ED383800800DB6 /* AstronautListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListTableViewCell.swift; sourceTree = "<group>"; };
+		F07C4DDC27ED383800800DB6 /* AstronautListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AstronautListTableViewCell.xib; sourceTree = "<group>"; };
+		F07C4DE127ED39FC00800DB6 /* NetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHandler.swift; sourceTree = "<group>"; };
+		F07C4DE727ED401B00800DB6 /* AstronautListDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautListDataModel.swift; sourceTree = "<group>"; };
+		F07C4DE927ED403300800DB6 /* AstronautDetailsDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailsDataModel.swift; sourceTree = "<group>"; };
+		F07C4DEB27EDBDA100800DB6 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F0FB8A3427EE871900FDEDA6 /* StubNetworkHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StubNetworkHandler.swift; sourceTree = "<group>"; };
+		F0FB8A3627EE873400FDEDA6 /* AstronautDetailsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautDetailsTests.swift; sourceTree = "<group>"; };
+		F0FB8A3B27EEA30A00FDEDA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F07C4DA427ED34ED00800DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EF0B3403A6A6C088BA5B721 /* Pods_AstronautLister.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07C4DBA27ED34EE00800DB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C6405AB5E90DE9E641D067 /* Pods_AstronautListerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F13118A95BEBBF1B0EE4463 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F558810C7CE14B84BF5471 /* Pods-AstronautLister.debug.xcconfig */,
+				A9C7BDBC911DE4053F15D19A /* Pods-AstronautLister.release.xcconfig */,
+				506C4E87EDDEBFBBDDF968E7 /* Pods-AstronautListerTests.debug.xcconfig */,
+				E9070DD433BA29D66962A043 /* Pods-AstronautListerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE022B9C31AE337154D5A0F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C279D88A9EA90DA67193CB5 /* Pods_AstronautLister.framework */,
+				A1BBD70DFC3B9FEDCFEC8E07 /* Pods_AstronautListerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F07C4D9E27ED34ED00800DB6 = {
+			isa = PBXGroup;
+			children = (
+				F07C4DA927ED34ED00800DB6 /* AstronautLister */,
+				F07C4DC027ED34EE00800DB6 /* AstronautListerTests */,
+				F07C4DA827ED34ED00800DB6 /* Products */,
+				5F13118A95BEBBF1B0EE4463 /* Pods */,
+				BE022B9C31AE337154D5A0F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F07C4DA827ED34ED00800DB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DA727ED34ED00800DB6 /* AstronautLister.app */,
+				F07C4DBD27ED34EE00800DB6 /* AstronautListerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F07C4DA927ED34ED00800DB6 /* AstronautLister */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DE027ED39DE00800DB6 /* Utiltiy */,
+				F07C4DDF27ED39D500800DB6 /* Network */,
+				F07C4DCE27ED352500800DB6 /* Model */,
+				F07C4DCC27ED351700800DB6 /* View */,
+				F07C4DCD27ED352200800DB6 /* ViewModel */,
+				F07C4DAA27ED34ED00800DB6 /* AppDelegate.swift */,
+				F07C4DAC27ED34ED00800DB6 /* SceneDelegate.swift */,
+				F07C4DAE27ED34ED00800DB6 /* ViewController.swift */,
+				F07C4DB027ED34ED00800DB6 /* Main.storyboard */,
+				F07C4DB327ED34EE00800DB6 /* Assets.xcassets */,
+				F07C4DB527ED34EE00800DB6 /* LaunchScreen.storyboard */,
+				F07C4DB827ED34EE00800DB6 /* Info.plist */,
+				F0FB8A3C27EEA30A00FDEDA6 /* Localizable.strings */,
+			);
+			path = AstronautLister;
+			sourceTree = "<group>";
+		};
+		F07C4DC027ED34EE00800DB6 /* AstronautListerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DC127ED34EE00800DB6 /* AstronautListerTests.swift */,
+				F0FB8A3627EE873400FDEDA6 /* AstronautDetailsTests.swift */,
+				F07C4DC327ED34EE00800DB6 /* Info.plist */,
+				F0FB8A3427EE871900FDEDA6 /* StubNetworkHandler.swift */,
+			);
+			path = AstronautListerTests;
+			sourceTree = "<group>";
+		};
+		F07C4DCC27ED351700800DB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DDA27ED37E100800DB6 /* Cells */,
+				F07C4DD927ED37D300800DB6 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F07C4DCD27ED352200800DB6 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DD327ED35C600800DB6 /* AstronautListViewModel.swift */,
+				F07C4DD527ED35E200800DB6 /* AstronautDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F07C4DCE27ED352500800DB6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DD727ED360B00800DB6 /* AstronautDataModels.swift */,
+				F07C4DE727ED401B00800DB6 /* AstronautListDataModel.swift */,
+				F07C4DE927ED403300800DB6 /* AstronautDetailsDataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F07C4DD927ED37D300800DB6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DCF27ED358E00800DB6 /* AstronautListViewController.swift */,
+				F07C4DD127ED35A800800DB6 /* AstronautDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F07C4DDA27ED37E100800DB6 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DDB27ED383800800DB6 /* AstronautListTableViewCell.swift */,
+				F07C4DDC27ED383800800DB6 /* AstronautListTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		F07C4DDF27ED39D500800DB6 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DE127ED39FC00800DB6 /* NetworkHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F07C4DE027ED39DE00800DB6 /* Utiltiy */ = {
+			isa = PBXGroup;
+			children = (
+				F07C4DEB27EDBDA100800DB6 /* Utility.swift */,
+			);
+			path = Utiltiy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F07C4DA627ED34ED00800DB6 /* AstronautLister */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07C4DC627ED34EE00800DB6 /* Build configuration list for PBXNativeTarget "AstronautLister" */;
+			buildPhases = (
+				F4A6D03F60D3D7BE1C05FBC5 /* [CP] Check Pods Manifest.lock */,
+				F07C4DA327ED34ED00800DB6 /* Sources */,
+				F07C4DA427ED34ED00800DB6 /* Frameworks */,
+				F07C4DA527ED34ED00800DB6 /* Resources */,
+				04A3A31E6AC19F10520C65EB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AstronautLister;
+			productName = AstronautLister;
+			productReference = F07C4DA727ED34ED00800DB6 /* AstronautLister.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F07C4DBC27ED34EE00800DB6 /* AstronautListerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F07C4DC927ED34EE00800DB6 /* Build configuration list for PBXNativeTarget "AstronautListerTests" */;
+			buildPhases = (
+				A2855158FBC55DA1D1353615 /* [CP] Check Pods Manifest.lock */,
+				F07C4DB927ED34EE00800DB6 /* Sources */,
+				F07C4DBA27ED34EE00800DB6 /* Frameworks */,
+				F07C4DBB27ED34EE00800DB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F07C4DBF27ED34EE00800DB6 /* PBXTargetDependency */,
+			);
+			name = AstronautListerTests;
+			productName = AstronautListerTests;
+			productReference = F07C4DBD27ED34EE00800DB6 /* AstronautListerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F07C4D9F27ED34ED00800DB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Sunny Kumar";
+				TargetAttributes = {
+					F07C4DA627ED34ED00800DB6 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					F07C4DBC27ED34EE00800DB6 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = F07C4DA627ED34ED00800DB6;
+					};
+				};
+			};
+			buildConfigurationList = F07C4DA227ED34ED00800DB6 /* Build configuration list for PBXProject "AstronautLister" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F07C4D9E27ED34ED00800DB6;
+			productRefGroup = F07C4DA827ED34ED00800DB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F07C4DA627ED34ED00800DB6 /* AstronautLister */,
+				F07C4DBC27ED34EE00800DB6 /* AstronautListerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F07C4DA527ED34ED00800DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FB8A3A27EEA30A00FDEDA6 /* Localizable.strings in Resources */,
+				F07C4DB727ED34EE00800DB6 /* LaunchScreen.storyboard in Resources */,
+				F07C4DB427ED34EE00800DB6 /* Assets.xcassets in Resources */,
+				F07C4DB227ED34ED00800DB6 /* Main.storyboard in Resources */,
+				F07C4DDE27ED383800800DB6 /* AstronautListTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07C4DBB27ED34EE00800DB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04A3A31E6AC19F10520C65EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstronautLister/Pods-AstronautLister-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AstronautLister/Pods-AstronautLister-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AstronautLister/Pods-AstronautLister-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2855158FBC55DA1D1353615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstronautListerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4A6D03F60D3D7BE1C05FBC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AstronautLister-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F07C4DA327ED34ED00800DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F07C4DD027ED358E00800DB6 /* AstronautListViewController.swift in Sources */,
+				F07C4DAF27ED34ED00800DB6 /* ViewController.swift in Sources */,
+				F07C4DD427ED35C600800DB6 /* AstronautListViewModel.swift in Sources */,
+				F07C4DE227ED39FC00800DB6 /* NetworkHandler.swift in Sources */,
+				F07C4DEA27ED403300800DB6 /* AstronautDetailsDataModel.swift in Sources */,
+				F07C4DDD27ED383800800DB6 /* AstronautListTableViewCell.swift in Sources */,
+				F07C4DD827ED360B00800DB6 /* AstronautDataModels.swift in Sources */,
+				F07C4DEC27EDBDA100800DB6 /* Utility.swift in Sources */,
+				F07C4DD227ED35A800800DB6 /* AstronautDetailsViewController.swift in Sources */,
+				F07C4DE827ED401B00800DB6 /* AstronautListDataModel.swift in Sources */,
+				F07C4DAB27ED34ED00800DB6 /* AppDelegate.swift in Sources */,
+				F07C4DD627ED35E200800DB6 /* AstronautDetailsViewModel.swift in Sources */,
+				F07C4DAD27ED34ED00800DB6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F07C4DB927ED34EE00800DB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0FB8A3727EE873400FDEDA6 /* AstronautDetailsTests.swift in Sources */,
+				F07C4DC227ED34EE00800DB6 /* AstronautListerTests.swift in Sources */,
+				F0FB8A3527EE871900FDEDA6 /* StubNetworkHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F07C4DBF27ED34EE00800DB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F07C4DA627ED34ED00800DB6 /* AstronautLister */;
+			targetProxy = F07C4DBE27ED34EE00800DB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F07C4DB027ED34ED00800DB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07C4DB127ED34ED00800DB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F07C4DB527ED34EE00800DB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F07C4DB627ED34EE00800DB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F0FB8A3C27EEA30A00FDEDA6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0FB8A3B27EEA30A00FDEDA6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F07C4DC427ED34EE00800DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F07C4DC527ED34EE00800DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F07C4DC727ED34EE00800DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F558810C7CE14B84BF5471 /* Pods-AstronautLister.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstronautLister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.sunny.AstronautLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F07C4DC827ED34EE00800DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C7BDBC911DE4053F15D19A /* Pods-AstronautLister.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstronautLister/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.sunny.AstronautLister;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F07C4DCA27ED34EE00800DB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 506C4E87EDDEBFBBDDF968E7 /* Pods-AstronautListerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstronautListerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.sunny.AstronautListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronautLister.app/AstronautLister";
+			};
+			name = Debug;
+		};
+		F07C4DCB27ED34EE00800DB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9070DD433BA29D66962A043 /* Pods-AstronautListerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AstronautListerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.au.sunny.AstronautListerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AstronautLister.app/AstronautLister";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F07C4DA227ED34ED00800DB6 /* Build configuration list for PBXProject "AstronautLister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07C4DC427ED34EE00800DB6 /* Debug */,
+				F07C4DC527ED34EE00800DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07C4DC627ED34EE00800DB6 /* Build configuration list for PBXNativeTarget "AstronautLister" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07C4DC727ED34EE00800DB6 /* Debug */,
+				F07C4DC827ED34EE00800DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F07C4DC927ED34EE00800DB6 /* Build configuration list for PBXNativeTarget "AstronautListerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F07C4DCA27ED34EE00800DB6 /* Debug */,
+				F07C4DCB27ED34EE00800DB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F07C4D9F27ED34ED00800DB6 /* Project object */;
+}
