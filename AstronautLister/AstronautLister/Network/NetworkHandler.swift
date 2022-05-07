@@ -39,9 +39,6 @@ struct NetworkHandler: Networking {
         
         let dataTask = defaultSession.dataTask(with: url) { (data, response, error) in
             // All errors apart from success with status code "200" are considered as network failures
-            // NOTE: here third party library SwiftyJson is used to handle special characters in json.
-            // REASON: noticed there are special characters in service response and
-            // to handle all which are known and unknown taken help of SwiftyJSON library
             guard error == nil,
                 let data = data,
                 let response = response as? HTTPURLResponse,
